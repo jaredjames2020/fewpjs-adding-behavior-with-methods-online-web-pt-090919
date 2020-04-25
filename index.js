@@ -14,7 +14,9 @@ class Dog {
   constructor(name, sex){
     this.name = name;
     this.sex = sex;
-    this.speak = `${name} says woof!`
+    this.speak = function(){
+      `${name} says woof!`;
+    };
   }
 }
 
