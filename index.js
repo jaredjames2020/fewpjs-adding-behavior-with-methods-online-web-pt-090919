@@ -3,7 +3,7 @@ class Cat{
   constructor(name, sex){
     this.name = name;
     this.sex = sex;
-    function speak(){
+    speak(){
       return `${name} says meow!`;
     } 
   }
