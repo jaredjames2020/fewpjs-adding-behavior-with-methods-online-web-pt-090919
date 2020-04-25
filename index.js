@@ -24,10 +24,10 @@ class Bird{
     this.name = name;
     this.sex = sex;
     this.speak = function() {
-    if (sex != male) return `${name} says squak!`;
+    if (sex != male) { return `${name} says squak!`;
     } else {
-      return `It's me! ${name}, the parrot!`
-    }
-  };
-
+      return `It's me! ${name}, the parrot!`;
+      }
+    };
+  }
 }
